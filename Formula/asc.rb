@@ -4,15 +4,15 @@
 class Asc < Formula
   desc "A fast, AI-agent friendly CLI for App Store Connect"
   homepage "https://github.com/rudrankriyam/App-Store-Connect-CLI"
-  url "https://github.com/rudrankriyam/App-Store-Connect-CLI/releases/download/0.27.0/asc_0.27.0_macOS_arm64"
-  version "0.27.0"
-  sha256 "0a60aad64719c5b2dd21262fc7ec6b7fea619113434b0596f4b2780537138bd9"
+  url "https://github.com/rudrankriyam/App-Store-Connect-CLI/releases/download/0.28.0/asc_0.28.0_macOS_arm64"
+  version "0.28.0"
+  sha256 "dda72370b7d2c10901a996e1028fb0b572f846b61a6f1bdef54d8f49d836d146"
   license "MIT"
 
   depends_on :macos
 
   def install
-    bin.install "asc_0.27.0_macOS_arm64" => "asc"
+    bin.install "asc_0.28.0_macOS_arm64" => "asc"
   end
 
   test do
