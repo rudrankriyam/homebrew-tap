@@ -2,7 +2,7 @@
 # frozen_string_literal: true
 
 class Afm < Formula
-  desc "A native CLI for Foundation Models on Apple platforms"
+  desc "Native CLI for Foundation Models on Apple platforms"
   homepage "https://github.com/rudrankriyam/Foundation-Models-Framework-CLI"
   url "https://github.com/rudrankriyam/Foundation-Models-Framework-CLI/releases/download/0.1.0/afm_0.1.0_macOS_universal"
   version "0.1.0"

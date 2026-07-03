@@ -1,0 +1,26 @@
+name: Tap
+
+on:
+  pull_request:
+  push:
+    branches:
+      - main
+
+jobs:
+  syntax:
+    runs-on: macos-latest
+    steps:
+      - name: Check out tap
+        uses: actions/checkout@v4
+
+      - name: Set up Homebrew
+        uses: Homebrew/actions/setup-homebrew@master
+
+      - name: Check Ruby syntax
+        run: |
+          for formula in Formula/*.rb; do
+            ruby -c "$formula"
+          done
+
+      - name: Check formula style
+        run: brew style Formula/*.rb
