@@ -9,6 +9,11 @@ class Afm < Formula
   sha256 "476555de227aab44042874b4b928f6f0907ef65805de4ebef74d1f0fa0e0953e"
   license "MIT"
 
+  livecheck do
+    url :stable
+    strategy :github_latest
+  end
+
   depends_on :macos
 
   def install

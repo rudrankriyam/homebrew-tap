@@ -8,6 +8,11 @@ class Ghealth < Formula
   version "1.0.0"
   license "MIT"
 
+  livecheck do
+    url :stable
+    strategy :github_latest
+  end
+
   on_macos do
     if Hardware::CPU.intel?
       url "https://github.com/rudrankriyam/Google-Health-CLI/releases/download/1.0.0/Google-Health-CLI-1.0.0-darwin-amd64.tar.gz"
