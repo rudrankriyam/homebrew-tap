@@ -23,6 +23,7 @@ brew install rudrankriyam/tap/<formula>
 | `asc` | Fast, AI-agent friendly CLI for App Store Connect | [rorkai/App-Store-Connect-CLI](https://github.com/rorkai/App-Store-Connect-CLI) |
 | `ghealth` | Unofficial CLI for the Google Health API | [rudrankriyam/Google-Health-CLI](https://github.com/rudrankriyam/Google-Health-CLI) |
 | `xceval` | Run and inspect Apple Evaluations workflows from the command line | [rudrankriyam/Evaluations-Framework-CLI](https://github.com/rudrankriyam/Evaluations-Framework-CLI) |
+| `xcfb` | Unofficial CLI for automating Apple Feedback Assistant workflows | [rudrankriyam/Feedback-Assistant-CLI](https://github.com/rudrankriyam/Feedback-Assistant-CLI) |
 
 ## License
 
